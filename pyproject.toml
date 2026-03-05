@@ -1,0 +1,7 @@
+[project]
+name = "ghopass"
+version = "0.1.0"
+dependencies = ["rich", "typer", "cryptography"]
+
+[project.scripts]
+ghopass = "ghocli.main:app"

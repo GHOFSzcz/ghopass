@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+.ghopass/
+vault.json
+master.hash
+
+dist/
+build/
+*.egg-info/
