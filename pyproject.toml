@@ -1,7 +1,7 @@
 [project]
 name = "ghopass"
 version = "0.1.0"
-dependencies = ["rich", "typer", "cryptography"]
+dependencies = ["rich", "typer", "cryptography", "pyperclip"]
 
 [project.scripts]
 ghopass = "ghocli.main:app"
